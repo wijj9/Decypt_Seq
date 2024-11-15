@@ -89,7 +89,7 @@ function handleBoxClick(box) {
         }
     }
 
-    pressCountDisplay.textContent = `Selected: ${currentSequence.length}`;
+    pressCountDisplay.textContent = `Selected: ${currentSequence.length}/4`;
 
     if (currentSequence.length === 4) {
         if (correctClicks === 4) {
