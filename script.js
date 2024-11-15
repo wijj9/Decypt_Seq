@@ -120,7 +120,7 @@ function resetGrid() {
 }
 
 function resetTimer() {
-    if (currentSequence.length < 4) {
+    if (currentSequence.length < 4 && currentSequence.length > 0) {
         errorSound.play();
     }
     resetGrid();
