@@ -120,6 +120,10 @@ function resetGrid() {
 }
 
 function resetTimer() {
+    if (currentSequence.length < 4) {
+        errorSound.play();
+    }
+    resetGrid();
     timerBar.style.transition = 'none';
     timerBar.style.width = '310px';
     void timerBar.offsetWidth;
