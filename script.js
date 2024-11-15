@@ -6,7 +6,7 @@ const successSound = document.getElementById("successSound");
 const clickSound = document.getElementById("clickSound");
 const totalBoxes = 25;
 
-const emojiList = ["💻", "🌐", "❤️", "🍣", "🍜", "🍙", "🍰", "🍇", "🍉", "🍒", "🍌", "🍍", "🍑", "🍋", "🍊", "🍈", "🍇", "🎢", "🦤", "🦦", "🦄", "💩", "⛏️"];
+const emojiList = ["💻", "🌐", "❤", "🍣", "🦴", "🍙", "🍰", "🍇", "🍉", "💀", "🍌", "🍍", "🍑", "🍋", "🍊", "🤖", "🍇", "🎢", "🧠", "🐋", "🎳", "💩", "⛏️"];
 
 const correctSequence = ["💻", "🌐", "java", "canary"];
 
