@@ -95,7 +95,7 @@ function handleBoxClick(box) {
         if (correctClicks === 4) {
             successSound.play();
             setTimeout(() => {
-                window.location.href = "/your-next-page.html";
+                window.location.href = "https://wijj9.github.io/Decypt_Seq/";
             }, 500);
         } else {
             errorSound.play();
