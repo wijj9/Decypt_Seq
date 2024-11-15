@@ -92,12 +92,15 @@ function handleBoxClick(box) {
     pressCountDisplay.textContent = `Selected: ${currentSequence.length}`;
 
     if (currentSequence.length === 4) {
+        console.log("Current sequence length is 4");
         if (correctClicks === 4) {
+            console.log("Correct sequence achieved");
             successSound.play();
             setTimeout(() => {
-                window.location.href = "https://wijj9.github.io/Decypt_Seq/";
+                window.location.href = "https://wijj9.github.io/Decrypt_Seq/";
             }, 500);
         } else {
+            console.log("Incorrect sequence");
             errorSound.play();
             setTimeout(() => {
                 resetGrid();
