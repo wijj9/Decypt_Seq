@@ -23,6 +23,12 @@ function shuffleEmojis() {
     return randomizedEmojis;
 }
 
+function resetOnLoad() {
+    correctClicks = 0;
+    currentSequence = [];
+    resetGrid(); // Your existing function to reset the grid state
+}
+
 // Function to initialize the grid
 function initializeGrid() {
     grid.innerHTML = ""; // Clear the grid
@@ -124,3 +130,5 @@ function resetTimer() {
 initializeGrid();
 
 setInterval(initializeGrid, shuffleInterval);
+
+window.onload = resetOnLoad;
